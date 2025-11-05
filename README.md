@@ -22,7 +22,7 @@ It can print the contents of files to standard output and supports an optional `
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/mycat.git
+git clone https://github.com/xTaube/mycat.git
 ```
 
 Enter repository:
