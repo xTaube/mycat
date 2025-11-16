@@ -31,15 +31,6 @@ void cat(FILE *fp, unsigned int flags, size_t *line_number) {
       }
     }
   }
-
-  while (fgets(buffer, BUFF_MAX, fp)) {
-    if (flags & FLAG_N) {
-      fprintf(stdout, "%6zu %s", *line_number, buffer);
-    } else {
-      fprintf(stdout, "%s", buffer);
-    }
-    (*line_number)++;
-  }
 }
 
 int main(int argc, const char *argv[argc + 1]) {
